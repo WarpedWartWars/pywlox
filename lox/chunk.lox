@@ -1,0 +1,9 @@
+//include common.lox
+
+class OpCode {
+    init(i) {
+        this.i = i;
+    }
+}
+
+var OP_RETURN = OpCode(0);
